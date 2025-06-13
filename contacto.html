@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Contacto</title>
+</head>
+<body class="container">
+    <h1>Contacto</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, perferendis consectetur impedit, vel at quo libero eaque consequatur provident ducimus aut quae quia blanditiis iure quod expedita quis fugit molestiae?</p>
+
+    <form action="https://formsubmit.co/untreschool@gmail.com" method="POST" class="formulardo">
+        <fieldset>
+          <label>Nombre Completo:
+          <input type="text" placeholder="Roberto Perez" name="nombre" >
+        </label>
+          <label>Fecha:
+            <input type="datetime-local" name="fecha">
+          </label>
+            <label>rango:
+                <input type="range" name="rango">
+              </label>
+          <label>Buscar:
+            <input type="search" name="search">
+          </label>
+            <label>Telefono:
+                <input type="tel" name="telefono" >
+              </label>
+          <label>Email:
+            <input type="email" placeholder="asd@asd.com" name="email">
+          </label>
+        
+          
+          <label for="commentField">Comentarios:</label>
+          <textarea spelltext="true" placeholder="Ingrese aqui sus comentarios…" id="commentField"></textarea>
+          <div class="float-right">
+            <input type="checkbox" id="confirmField">
+           
+          </div>
+          <br>
+          
+
+        </fieldset>
+        <input type="reset" class="button button-outline"></input>
+
+          <input type="submit" class="button button-outline"></input>
+      </form>
+</body>
+</html>

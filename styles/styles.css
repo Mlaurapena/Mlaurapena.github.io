@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Markazi+Text:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contact-title{
+  font-family: "Belanosima", sans-serif;
+}
+
+h1{
+  
+  color:white;
+    background-color: #00425a;   
+    text-align: center;
+}
+ 
+
+ li{
+    display: inline;
+   
+ }
+
+ a{
+   
+   color:#181823;
+   background-color: #eff5f5;
+
+ }
+
+
+ h2{
+    
+    color:#1f8a70;
+
+}
+
+section{
+    padding: 2rem;
+     border: 1px solid gray;
+     
+}
+
+
+    @media(max-width: 768px) {
+      footer {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+      }
+    }
+
+
+   
+
+ .contenedor {
+      display: flex;
+      align-items: center;
+      gap: 20px; /
+    }
+
+    .contenedor img {
+      width: 300px;
+      height: auto;
+      
+    }
+
+
+.texto {
+     font-family:"Poppins", sans-serif;
+     font-size: 16px;
+      line-height: 1.5;
+
+    }
+img{
+   
+    display: block;
+      margin: auto;
+      height: 300px;
+}
+
+.columna{
+  flex:1px;
+  font-family:Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #00425A; 
+      color: black;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      flex: 1;
+      text-align: center;
+    }
+
+    .footer-left {
+      text-align: left;
+    }
+
+    .footer-right {
+      text-align: right;
+    }
+
+    .footer-left a {
+      margin-right: 10px;
+      color:black;
+      text-decoration: none;
+      display: block;
+      background-color: #00425A;
+    }
+
+    .footer-left a:hover {
+      text-decoration: underline;
+    }
